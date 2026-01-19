@@ -308,6 +308,12 @@ display: flex;
 justify-content: center;
 }
 
+.tstimonial{
+
+    padding-bottom: 120px;
+
+}
+
 .testimonial-content{
 display: flex;
 background-color: rgb(53, 17, 101, .40);
@@ -351,10 +357,45 @@ margin-top: 20px;
 }
 
 
+.footer-section{
+    background-image: url(B13-A02-TechWave/assets/footer-bg.png);
+    padding: 120px 0;
+    background-position: center;
+    background-size: cover;
+}
 
+.footer-content-wrapper{
 
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
 
+.footer-social{
 
+    display: flex;
+    gap: 30px;
+
+}
+
+.footer-social a{
+
+display: flex;
+gap: 15px;
+text-decoration: none;
+color: #fff;
+}
+
+.footer-icon{
+width: 20px;
+height: 20px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
 
 
 
