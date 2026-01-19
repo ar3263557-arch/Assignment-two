@@ -14,6 +14,7 @@ body{
   font-optical-sizing: auto;
   font-weight: normal;
   font-style: normal;
+  background-color: #1A0B2E;
 }
 .container{
     width: 100%;
@@ -218,6 +219,116 @@ h2.section-title
 .feature-card.padding-40px{
     padding: 40px 40px 40px 40px;
 }
+
+
+.blog-section {
+  max-width: 1200px;
+  margin: auto;
+}
+
+
+.blog-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+
+.blog-card {
+  background: #1a1a2e;
+  border-radius: 14px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.blog-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.4);
+}
+
+
+.video-box video {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+}
+
+
+.content {
+  padding: 16px;
+}
+
+.content h3 {
+  font-size: 24px;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.content p {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #cfcfe6;
+}
+iframe{
+    width: 100%;
+    height: 214px;
+     opacity: 0;
+     position: relative;
+     z-index: 2;
+}
+img.play-icon, .thumbnail {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.video-box{
+    position: relative;
+    z-index: 1;
+}
+.thumbnail {
+    z-index: -2;
+}
+
+img.play-icon{
+
+    z-index: -1;
+}
+.blog-section{
+
+    padding: 120px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width:576px) {
    
