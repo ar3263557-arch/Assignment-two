@@ -132,13 +132,7 @@ img.button-icon {
     margin-right: 10px;
 }
 
-.About-section{
-    background-color: #1A0B2E;
-    color: #fff;
-    padding-top: 80px;
-    
-    
-}
+
 .About-section h2{
 
 }
@@ -169,6 +163,62 @@ img.logo{
 .mobile-menu{
     display: none;
 }
+.manu {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    color: #00FF88;
+    font-size: 48px;
+    gap: 80px;
+    flex-wrap: wrap;
+}
+section.feature-section {
+    background: #230E3D;
+    padding: 120px 0;
+}
+.feature-card {
+    padding: 110px 40px;
+    background: rgb(53, 17, 101, .40);
+    border-radius: 40px;
+}
+.feature-card-wrapper{
+    display: flex;
+    gap: 30px;
+    width: 100%;
+}
+.feature-card h5 {
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
+}
+.feature-card p{}
+.feature-card img{}
+
+.mb-30px{
+    margin-bottom: 30px;
+}
+
+.About-section {
+    background-color: #1A0B2E;
+    color: #fff;
+    padding: 0px 0px 120px 0px;
+}
+h2.section-title
+ {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.flex-v{
+    flex-direction: column;
+}
+
+.max-width-380px{
+    max-width: 380px;
+}
+.feature-card.padding-40px{
+    padding: 40px 40px 40px 40px;
+}
+
 @media screen and (max-width:576px) {
    
     h2{
@@ -184,6 +234,18 @@ img.logo{
    
 
 }
+
+.max-width-380px{
+    max-width: 100%;
+}
+.feature-card.padding-40px{
+    padding: 20px;
+}
+.feature-card-wrapper{
+    display: block;
+}
+
+
 .center-block{
     position: relative;
     width: 60px;
@@ -276,6 +338,7 @@ header{
     left: 50%;
     transform: translate(-50%, -50%);
     max-width: 80px;
+    margin-top: 50px;
 }
 
 .hero-content-block h1{
